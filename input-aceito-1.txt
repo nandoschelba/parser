@@ -1,0 +1,33 @@
+def func1(int a, int b) {
+    int c, d, r;
+    c := a + b;
+    d := a + b * c;
+    r := c - d;
+    return r;
+}
+
+def subtraiValores () {
+    int x , y, total ;
+    x := 3 ;
+    y := 5 ;
+    total := x - y;
+    print total;
+    return total;
+}
+
+def somaValores(int a, int b) {
+    int total;
+    total := a + b;
+    print total;
+    return total;
+}
+
+def principal() {
+    int x, y, r;
+    x := 4;
+    y := 5;
+    r := func1(x, y);
+    print r;
+    return;
+}
+$

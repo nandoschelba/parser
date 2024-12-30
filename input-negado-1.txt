@@ -1,0 +1,29 @@
+def principal ( ) { 
+    int x , y ; 
+    return ; 
+} 
+
+def somaNumeros ( ) {
+    int a , b , soma ;
+    a := 10 ;
+    b := 20 ;
+    c := 50;
+    d := 60;
+    soma := a + b ;
+    print soma ;
+    return ;
+}
+
+def verificaMaior ( ) { 
+    int x , y , maior ;
+    x := 50 ;
+    y := & ;
+    if ( x > y ) {
+        maior := x ;
+        print maior ;
+    } else {
+        maior := y ;
+        print maior ;
+    }
+}
+$
